@@ -1,5 +1,5 @@
 using MudBlazor.Services;
-using MudBlazor_Web.Client.Pages;
+using MudBlazor_Shared.Pages;
 using MudBlazor_Web.Components;
 
 namespace MudBlazor_Web
@@ -38,7 +38,7 @@ namespace MudBlazor_Web
 
             app.MapRazorComponents<App>()
                 .AddInteractiveWebAssemblyRenderMode()
-                .AddAdditionalAssemblies(typeof(Client._Imports).Assembly);
+                .AddAdditionalAssemblies(typeof(MudBlazor_Shared._Imports).Assembly);
 
             app.Run();
         }

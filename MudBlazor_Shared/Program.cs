@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
 
-namespace MudBlazor_Web.Client
+namespace MudBlazor_Shared
 {
     internal class Program
     {

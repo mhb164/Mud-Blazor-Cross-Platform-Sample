@@ -8,8 +8,12 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\MudBlazor_Web.Client\MudBlazor_Web.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.*" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\MudBlazor_Shared\MudBlazor_Shared.csproj" />
   </ItemGroup>
 
 </Project>
