@@ -14,6 +14,8 @@ namespace MudBlazor_WinForms
             services.AddBlazorWebViewDeveloperTools();
             services.AddMudServices();
 
+            InteractiveRenderSettings.ConfigureBlazorHybridRenderModes();
+
             InitializeComponent();
 
             blazorWebView1.HostPage = @"wwwroot\index.html";
